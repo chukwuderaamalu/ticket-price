@@ -1,0 +1,61 @@
+body{
+    background-image: linear-gradient(rgb(62, 236, 62),rgb(224, 101, 101),yellow);
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+span{
+    background-image: linear-gradient(red,green);
+    color: white;
+}
+
+button{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 19px;
+    cursor: pointer;
+
+}
+
+button:hover{
+   background-color: red;
+color: white;
+
+}
+
+.mylab{
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.inputElement{
+    padding: 10px;
+    cursor: pointer;
+   
+}
+
+.nn{
+    display: flex;
+    justify-content: center;
+}
+
+.mm{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
