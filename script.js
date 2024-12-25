@@ -1,6 +1,9 @@
 
 
 function ticketFee () {
+
+    alert(`Please input your age to continue`)
+
     const input = document.querySelector(`.inputElement`)
     let age = input.value
        
@@ -29,18 +32,14 @@ function ticketFee () {
 
    
 }
-ticketFee()
 
 
 
 
-function ticketButton (){
-    
-    alert(`Please input your age to continue`)
-}
+
 function clearButton (){
     
     
-        ticketPrice = ``
+    document.querySelector(`.ticket`).innerHTML = ``
     
 }
